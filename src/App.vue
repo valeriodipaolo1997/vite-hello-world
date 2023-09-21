@@ -1,11 +1,24 @@
-<script setup>
+<script>
 
+import AppTitle from './components/AppTitle.vue';
+
+
+export default {
+  data() {
+    return {
+      title: 'Hello Vite'
+    }
+  },
+
+  components: {
+    AppTitle
+
+  }
+}
 </script>
 
 <template>
-  <h1> HELLO WORLD</h1>
+  <AppTitle />
 </template>
 
-<style>
-
-</style>
+<style></style>
